@@ -1,0 +1,2044 @@
+{
+"metadata": {
+"title": "Dengue and severe dengue",
+"source": "WHO",
+"organization": "World Health Organization",
+"publication_date": "2025-08-21",
+"language": "English",
+"domain": "Healthcare",
+"document_type": "WHO Disease Report",
+"document_url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)",
+"version": "1.0"
+},
+"nodes": [
+{
+"id": "dengue",
+"type": "Disease",
+"label": "Dengue",
+"aliases": ["break-bone fever"],
+"description": "A viral infection caused by the dengue virus (DENV), which is transmitted to humans through the bite of infected mosquitoes.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "severe_dengue",
+"type": "Disease",
+"label": "Severe Dengue",
+"aliases": [],
+"description": "A more severe case of dengue infection that can occasionally cause death and often requires hospitalization.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "dengue_virus",
+"type": "Virus",
+"label": "Dengue virus",
+"aliases": ["DENV"],
+"description": "The pathogen causing dengue viral infection.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "high_fever",
+"type": "Symptom",
+"label": "High fever",
+"aliases": [],
+"description": "Fever reaching 40°C/104°F.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "severe_headache",
+"type": "Symptom",
+"label": "Severe headache",
+"aliases": [],
+"description": "Intense head pain.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "pain_behind_the_eyes",
+"type": "Symptom",
+"label": "Pain behind the eyes",
+"aliases": [],
+"description": "Retro-orbital pain.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "muscle_and_joint_pains",
+"type": "Symptom",
+"label": "Muscle and joint pains",
+"aliases": ["body aches"],
+"description": "Pain in muscles and joints.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "nausea",
+"type": "Symptom",
+"label": "Nausea",
+"aliases": [],
+"description": "Feeling of sickness with an inclination to vomit.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "vomiting",
+"type": "Symptom",
+"label": "Vomiting",
+"aliases": [],
+"description": "Ejecting matter from the stomach through the mouth.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "swollen_glands",
+"type": "Symptom",
+"label": "Swollen glands",
+"aliases": [],
+"description": "Enlargement of lymph nodes.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "rash",
+"type": "Symptom",
+"label": "Rash",
+"aliases": [],
+"description": "Area of irritated or swollen skin.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "severe_abdominal_pain",
+"type": "SevereSymptom",
+"label": "Severe abdominal pain",
+"aliases": [],
+"description": "Intense stomach or gut pain.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "persistent_vomiting",
+"type": "SevereSymptom",
+"label": "Persistent vomiting",
+"aliases": [],
+"description": "Continuous and uncontrolled vomiting.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "rapid_breathing",
+"type": "SevereSymptom",
+"label": "Rapid breathing",
+"aliases": [],
+"description": "Increased respiratory rate.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "bleeding_gums_or_nose",
+"type": "SevereSymptom",
+"label": "Bleeding gums or nose",
+"aliases": [],
+"description": "Hemorrhage from mucosal surfaces.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "fatigue",
+"type": "Symptom",
+"label": "Fatigue",
+"aliases": [],
+"description": "Extreme tiredness or exhaustion, which can also persist for weeks after recovery.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "restlessness",
+"type": "SevereSymptom",
+"label": "Restlessness",
+"aliases": [],
+"description": "Inability to rest or relax.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "blood_in_vomit_or_stool",
+"type": "SevereSymptom",
+"label": "Blood in vomit or stool",
+"aliases": [],
+"description": "Gastrointestinal bleeding manifest in excretions.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "being_very_thirsty",
+"type": "SevereSymptom",
+"label": "Being very thirsty",
+"aliases": [],
+"description": "Excessive thirst.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "pale_and_cold_skin",
+"type": "SevereSymptom",
+"label": "Pale and cold skin",
+"aliases": [],
+"description": "Skin pallor and reduced temperature.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "feeling_weak",
+"type": "SevereSymptom",
+"label": "Feeling weak",
+"aliases": [],
+"description": "Lack of physical strength.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "aedes_aegypti",
+"type": "Vector",
+"label": "Aedes aegypti",
+"aliases": [],
+"description": "The primary mosquito vector species within the Aedes genus responsible for transmitting the dengue virus.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "aedes_albopictus",
+"type": "Vector",
+"label": "Aedes albopictus",
+"aliases": [],
+"description": "A secondary mosquito vector species within the Aedes genus capable of transmitting the dengue virus.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "mosquito_bite",
+"type": "Transmission",
+"label": "Mosquito bite",
+"aliases": [],
+"description": "The primary transmission mode of DENV to humans through the bites of infected female Aedes mosquitoes.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "maternal_transmission",
+"type": "Transmission",
+"label": "Maternal transmission",
+"aliases": ["vertical transmission"],
+"description": "Transmission of DENV from a pregnant mother to her baby.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "blood_products_transmission",
+"type": "Transmission",
+"label": "Transmission via blood products",
+"aliases": ["organ donation", "transfusions"],
+"description": "Rare transmission mode of DENV via blood products, organ donation, and transfusions.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "transovarial_transmission",
+"type": "Transmission",
+"label": "Transovarial transmission",
+"aliases": [],
+"description": "Transmission of the virus within mosquitoes from parent to offspring.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "pain_management",
+"type": "Treatment",
+"label": "Pain management",
+"aliases": [],
+"description": "Symptomatic treatment focused on managing pain with medication as there is no specific treatment.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "hospitalization",
+"type": "Treatment",
+"label": "Hospitalization",
+"aliases": [],
+"description": "Medical care in a hospital, often necessary for individuals with severe dengue.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "paracetamol",
+"type": "Medicine",
+"label": "Paracetamol",
+"aliases": ["acetaminophen"],
+"description": "Medication used for pain management in dengue patients.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "ibuprofen",
+"type": "Medicine",
+"label": "Ibuprofen",
+"aliases": [],
+"description": "Non-steroidal anti-inflammatory medicine that should be avoided as it can increase the risk of bleeding.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "aspirin",
+"type": "Medicine",
+"label": "Aspirin",
+"aliases": [],
+"description": "Non-steroidal anti-inflammatory medicine that should be avoided due to the increased risk of bleeding.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "qdenga",
+"type": "Vaccine",
+"label": "QDenga",
+"aliases": [],
+"description": "Vaccine licensed in some countries, recommended only for those aged 6-16 years in high transmission settings.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "naats",
+"type": "DiagnosticTest",
+"label": "Nucleic acid amplification tests",
+"aliases": ["NAATs"],
+"description": "Molecular detection method for direct detection of nucleic acid.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "elisas",
+"type": "DiagnosticTest",
+"label": "Enzyme-linked immunosorbent assays",
+"aliases": ["ELISAs"],
+"description": "Laboratory-based test methodology used for dengue diagnostics.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "rapid_diagnostic_test",
+"type": "DiagnosticTest",
+"label": "Rapid diagnostic test",
+"aliases": [
+  "Rapid Diagnostic Test",
+  "RDT",
+  "RDTs"
+],
+"description": "Point-of-care diagnostics including antigen testing within the first week of illness.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "virus_isolation",
+"type": "DiagnosticTest",
+"label": "Virus isolation",
+"aliases": [],
+"description": "Direct detection method for arboviruses laboratory testing.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "pre_term_birth",
+"type": "Complication",
+"label": "Pre-term birth",
+"aliases": [],
+"description": "A complication suffered by babies due to maternal transmission of DENV infection during pregnancy.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "low_birth_weight",
+"type": "Complication",
+"label": "Low birth weight",
+"aliases": [],
+"description": "A baby complication linked to maternal dengue infection during pregnancy.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "fetal_distress",
+"type": "Complication",
+"label": "Fetal distress",
+"aliases": [],
+"description": "Signs of distress in a fetus associated with maternal dengue infection.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "vector_control",
+"type": "Prevention",
+"label": "Vector control",
+"aliases": [],
+"description": "The primary method of prevention and control of dengue relying on controlling mosquito populations.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "protective_clothing",
+"type": "Prevention",
+"label": "Protective clothing",
+"aliases": [],
+"description": "Clothes that cover as much of your body as possible to prevent mosquito bites.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "mosquito_nets",
+"type": "Prevention",
+"label": "Mosquito nets",
+"aliases": [],
+"description": "Nets ideally sprayed with insect repellent used when sleeping during the day.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "window_screens",
+"type": "Prevention",
+"label": "Window screens",
+"aliases": [],
+"description": "Screens fitted to windows to block mosquito entry.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "mosquito_repellents",
+"type": "Prevention",
+"label": "Mosquito repellents",
+"aliases": ["DEET", "Picaridin", "IR3535"],
+"description": "Substances containing DEET, Picaridin or IR3535 applied to avoid mosquito bites.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "coils_and_vaporizers",
+"type": "Prevention",
+"label": "Coils and vaporizers",
+"aliases": [],
+"description": "Household tools used to repel or kill mosquitoes.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "environmental_management",
+"type": "Prevention",
+"label": "Environmental management",
+"aliases": ["environmental modification"],
+"description": "Practices implemented to stop mosquitoes from accessing egg-laying habitats.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "solid_waste_disposal",
+"type": "Prevention",
+"label": "Solid waste disposal",
+"aliases": [],
+"description": "Proper disposal of solid waste and removal of artificial habitats that can hold water.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "water_container_cleaning",
+"type": "Prevention",
+"label": "Water container cleaning",
+"aliases": [],
+"description": "Covering, emptying and cleaning domestic water storage containers on a weekly basis.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "insecticides_application",
+"type": "Prevention",
+"label": "Insecticides application",
+"aliases": [],
+"description": "Applying appropriate insecticides to outdoor water storage containers.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "previous_denv_infection",
+"type": "RiskFactor",
+"label": "Previous infection with DENV",
+"aliases": ["second infection"],
+"description": "Individuals infected for the second time are at greater risk of severe dengue.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "urbanization",
+"type": "RiskFactor",
+"label": "Urbanization",
+"aliases": ["rapid, unplanned urbanization"],
+"description": "Associated with dengue transmission through population density, human mobility, water access, and water storage practices.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "climate_change",
+"type": "RiskFactor",
+"label": "Climate change",
+"aliases": [],
+"description": "Leads to increasing temperatures, high rainfall and humidity, altering vector distribution and increasing transmission risks.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "fragile_health_systems",
+"type": "RiskFactor",
+"label": "Fragile and overburdened health systems",
+"aliases": [],
+"description": "Limitations in health infrastructure that increase the risk of epidemic spread.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "children_aged_6_16",
+"type": "Population",
+"label": "Children aged 6-16 years",
+"aliases": [],
+"description": "Target population group for the QDenga vaccine in high transmission settings.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "pregnant_mothers",
+"type": "Population",
+"label": "Pregnant mothers",
+"aliases": [],
+"description": "Population group capable of vertically transmitting DENV to babies.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "france",
+"type": "Country",
+"label": "France",
+"aliases": [],
+"description": "European country reporting dengue cases in 2024.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "italy",
+"type": "Country",
+"label": "Italy",
+"aliases": [],
+"description": "European country reporting dengue cases in 2024.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "spain",
+"type": "Country",
+"label": "Spain",
+"aliases": [],
+"description": "European country reporting dengue cases in 2024.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "mayotte",
+"type": "Country",
+"label": "Mayotte",
+"aliases": [],
+"description": "French overseas territory reporting cases and deaths in 2024.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "reunion",
+"type": "Country",
+"label": "Réunion",
+"aliases": [],
+"description": "French overseas territory reporting cases and deaths in 2024.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "region_of_the_americas",
+"type": "Region",
+"label": "Region of the Americas",
+"aliases": [],
+"description": "WHO Region contributing a significant proportion of the global dengue burden.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "european_region",
+"type": "Region",
+"label": "European Region",
+"aliases": [],
+"description": "WHO region where dengue is spreading to new areas.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "eastern_mediterranean_region",
+"type": "Region",
+"label": "Eastern Mediterranean Region",
+"aliases": [],
+"description": "WHO region experiencing the spread of dengue to new areas.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "world_health_organization",
+"type": "Organization",
+"label": "World Health Organization",
+"aliases": ["WHO"],
+"description": "The global agency coordinating the international response to dengue.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "global_vector_control_response",
+"type": "WHOProgram",
+"label": "Global Vector Control Response (2017–2030)",
+"aliases": [],
+"description": "An institutional response strategy adopted by countries for vector management.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "global_arbovirus_initiative",
+"type": "WHOProgram",
+"label": "Global Arbovirus Initiative (2022–2025)",
+"aliases": [],
+"description": "An initiative adopted by countries for prevention and control strategies.",
+"properties": {},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "statistic_global_population_at_risk",
+"type": "Statistic",
+"label": "About half of the world's population is now at risk of dengue",
+"aliases": [],
+"description": "Estimate of the proportion of the world population at risk.",
+"properties": {
+"value": "About half",
+"metric": "Population at risk"
+},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "statistic_annual_infections_estimate",
+"type": "Statistic",
+"label": "Estimated 100–400 million infections occurring each year",
+"aliases": [],
+"description": "Annual estimate of dengue virus infections worldwide.",
+"properties": {
+"range_low": 100000000,
+"range_high": 400000000,
+"metric": "Annual infections"
+},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "statistic_cases_2000",
+"type": "Statistic",
+"label": "505,430 cases reported to WHO in 2000",
+"aliases": [],
+"description": "Number of dengue cases reported globally in the year 2000.",
+"properties": {
+"value": 505430,
+"year": 2000,
+"metric": "Reported cases"
+},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "statistic_cases_2024",
+"type": "Statistic",
+"label": "Over 14.6 million cases reported in 2024",
+"aliases": [],
+"description": "Historic high of dengue cases reported globally in 2024.",
+"properties": {
+"value": 14600000,
+"year": 2024,
+"metric": "Reported cases"
+},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "statistic_deaths_2024",
+"type": "Statistic",
+"label": "More than 12,000 dengue-related deaths reported in 2024",
+"aliases": [],
+"description": "Total dengue deaths reported globally in 2024.",
+"properties": {
+"value": 12000,
+"year": 2024,
+"metric": "Reported deaths"
+},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "statistic_cases_americas_2024",
+"type": "Statistic",
+"label": "Over 13 million cases reported in the Region of the Americas in 2024",
+"aliases": [],
+"description": "Dengue cases contributed by the Americas region in 2024.",
+"properties": {
+"value": 13000000,
+"year": 2024,
+"metric": "Reported cases"
+},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "statistic_cases_2025",
+"type": "Statistic",
+"label": "Over 4 million cases reported from January to July 2025",
+"aliases": [],
+"description": "Dengue cases reported dynamically to WHO within the first seven months of 2025.",
+"properties": {
+"value": 4000000,
+"time_period": "January-July 2025",
+"metric": "Reported cases"
+},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"id": "statistic_deaths_2025",
+"type": "Statistic",
+"label": "Over 3,000 deaths reported from January to July 2025",
+"aliases": [],
+"description": "Dengue deaths reported globally within the first seven months of 2025.",
+"properties": {
+"value": 3000,
+"time_period": "January-July 2025",
+"metric": "Reported deaths"
+},
+"source_documents": ["WHO DENGUE FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+}
+],
+"edges": [
+{
+"source": "dengue",
+"relation": "CAUSED_BY",
+"target": "dengue_virus",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "TRANSMITTED_VIA",
+"target": "mosquito_bite",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "mosquito_bite",
+"relation": "TRANSMITTED_BY",
+"target": "aedes_aegypti",
+"properties": {
+"role": "primary"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "mosquito_bite",
+"relation": "TRANSMITTED_BY",
+"target": "aedes_albopictus",
+"properties": {
+"role": "secondary"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "CAUSES",
+"target": "severe_dengue",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "HAS_SYMPTOM",
+"target": "high_fever",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "HAS_SYMPTOM",
+"target": "severe_headache",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "HAS_SYMPTOM",
+"target": "pain_behind_the_eyes",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "HAS_SYMPTOM",
+"target": "muscle_and_joint_pains",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "HAS_SYMPTOM",
+"target": "nausea",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "HAS_SYMPTOM",
+"target": "vomiting",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "HAS_SYMPTOM",
+"target": "swollen_glands",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "HAS_SYMPTOM",
+"target": "rash",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "severe_abdominal_pain",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "persistent_vomiting",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "rapid_breathing",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "bleeding_gums_or_nose",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "fatigue",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "restlessness",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "blood_in_vomit_or_stool",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "being_very_thirsty",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "pale_and_cold_skin",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "feeling_weak",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "DIAGNOSED_BY",
+"target": "naats",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "DIAGNOSED_BY",
+"target": "elisas",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "DIAGNOSED_BY",
+"target": "rapid_diagnostic_test",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "DIAGNOSED_BY",
+"target": "virus_isolation",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "TREATED_BY",
+"target": "pain_management",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "pain_management",
+"relation": "USES",
+"target": "paracetamol",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "TREATED_BY",
+"target": "hospitalization",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "TRANSMITTED_VIA",
+"target": "maternal_transmission",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "maternal_transmission",
+"relation": "COMPLICATED_BY",
+"target": "pre_term_birth",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "maternal_transmission",
+"relation": "COMPLICATED_BY",
+"target": "low_birth_weight",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "maternal_transmission",
+"relation": "COMPLICATED_BY",
+"target": "fetal_distress",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "TRANSMITTED_VIA",
+"target": "blood_products_transmission",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue_virus",
+"relation": "TRANSMITTED_VIA",
+"target": "transovarial_transmission",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "severe_dengue",
+"relation": "HIGH_RISK_GROUP",
+"target": "previous_denv_infection",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "PREVENTED_BY",
+"target": "vector_control",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "PREVENTED_BY",
+"target": "protective_clothing",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "PREVENTED_BY",
+"target": "mosquito_nets",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "PREVENTED_BY",
+"target": "window_screens",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "PREVENTED_BY",
+"target": "mosquito_repellents",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "PREVENTED_BY",
+"target": "coils_and_vaporizers",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "vector_control",
+"relation": "USES",
+"target": "environmental_management",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "vector_control",
+"relation": "USES",
+"target": "solid_waste_disposal",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "vector_control",
+"relation": "USES",
+"target": "water_container_cleaning",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "vector_control",
+"relation": "USES",
+"target": "insecticides_application",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "HAS_VACCINE",
+"target": "qdenga",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "qdenga",
+"relation": "RECOMMENDED_FOR",
+"target": "children_aged_6_16",
+"properties": {
+"setting": "high transmission settings"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "urbanization",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "climate_change",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "fragile_health_systems",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "REPORTED_IN",
+"target": "france",
+"properties": {
+"cases": 308,
+"year": 2024
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "REPORTED_IN",
+"target": "italy",
+"properties": {
+"cases": 308,
+"year": 2024
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "REPORTED_IN",
+"target": "spain",
+"properties": {
+"cases": 308,
+"year": 2024
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "REPORTED_IN",
+"target": "mayotte",
+"properties": {
+"cases": 1291,
+"deaths": 4,
+"year": 2024
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "REPORTED_IN",
+"target": "reunion",
+"properties": {
+"cases": 1291,
+"deaths": 4,
+"year": 2024
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "PREVALENT_IN",
+"target": "region_of_the_americas",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "PREVALENT_IN",
+"target": "european_region",
+"properties": {
+"status": "spreading"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "PREVALENT_IN",
+"target": "eastern_mediterranean_region",
+"properties": {
+"status": "spreading"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "world_health_organization",
+"relation": "RECOMMENDED_BY",
+"target": "global_vector_control_response",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "world_health_organization",
+"relation": "RECOMMENDED_BY",
+"target": "global_arbovirus_initiative",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "statistic_global_population_at_risk",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "statistic_annual_infections_estimate",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "statistic_cases_2000",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "statistic_cases_2024",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "statistic_deaths_2024",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "region_of_the_americas",
+"relation": "RELATED_TO",
+"target": "statistic_cases_americas_2024",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "statistic_cases_2025",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+},
+{
+"source": "dengue",
+"relation": "RELATED_TO",
+"target": "statistic_deaths_2025",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue)"
+}
+]
+}
+]
+}

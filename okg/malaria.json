@@ -1,0 +1,2395 @@
+{
+"metadata": {
+"title": "Malaria Fact Sheet",
+"source": "WHO",
+"organization": "World Health Organization",
+"publication_date": "2025-12-04",
+"language": "en",
+"domain": "Healthcare",
+"document_type": "WHO Disease Report",
+"document_url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)",
+"version": "1.0"
+},
+"nodes": [
+{
+"id": "malaria",
+"type": "Disease",
+"label": "Malaria",
+"aliases": [],
+"description": "A life-threatening disease spread to humans by some types of mosquitoes, mostly found in tropical countries.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "plasmodium",
+"type": "Parasite",
+"label": "Plasmodium",
+"aliases": [],
+"description": "A genus of parasites that cause malaria in humans.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "p_falciparum",
+"type": "Species",
+"label": "P. falciparum",
+"aliases": ["Plasmodium falciparum"],
+"description": "The deadliest malaria parasite and the most prevalent on the African continent.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "p_vivax",
+"type": "Species",
+"label": "P. vivax",
+"aliases": ["Plasmodium vivax"],
+"description": "The dominant malaria parasite in most countries outside of sub-Saharan Africa.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "p_malariae",
+"type": "Species",
+"label": "P. malariae",
+"aliases": ["Plasmodium malariae"],
+"description": "A malaria species which can infect humans.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "p_ovale",
+"type": "Species",
+"label": "P. ovale",
+"aliases": ["Plasmodium ovale"],
+"description": "A malaria species which can infect humans.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "p_knowlesi",
+"type": "Species",
+"label": "P. knowlesi",
+"aliases": ["Plasmodium knowlesi"],
+"description": "A malaria species which can infect humans.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "female_anopheles_mosquitoes",
+"type": "Vector",
+"label": "Female Anopheles mosquitoes",
+"aliases": [],
+"description": "Mosquitoes through whose bites malaria mostly spreads to people.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "anopheles_stephensi",
+"type": "Vector",
+"label": "Anopheles stephensi",
+"aliases": [],
+"description": "An invasive mosquito species that thrives in urban settings, endures high temperatures, and is resistant to many public health insecticides.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "blood_transfusion",
+"type": "Transmission",
+"label": "Blood transfusion",
+"aliases": [],
+"description": "A route of malaria transmission.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "contaminated_needles",
+"type": "Transmission",
+"label": "Contaminated needles",
+"aliases": [],
+"description": "A route of malaria transmission.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "fever",
+"type": "Symptom",
+"label": "Fever",
+"aliases": [],
+"description": "A common early mild symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "chills",
+"type": "Symptom",
+"label": "Chills",
+"aliases": [],
+"description": "A common early mild symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "headache",
+"type": "Symptom",
+"label": "Headache",
+"aliases": [],
+"description": "A common early mild symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "fatigue",
+"type": "Symptom",
+"label": "Fatigue",
+"aliases": ["Extreme tiredness and fatigue"],
+"description": "A severe symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "impaired_consciousness",
+"type": "SevereSymptom",
+"label": "Impaired consciousness",
+"aliases": ["Confusion"],
+"description": "A severe symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "multiple_convulsions",
+"type": "SevereSymptom",
+"label": "Multiple convulsions",
+"aliases": ["Seizures"],
+"description": "A severe symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "difficulty_breathing",
+"type": "SevereSymptom",
+"label": "Difficulty breathing",
+"aliases": [],
+"description": "A severe symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "dark_or_bloody_urine",
+"type": "SevereSymptom",
+"label": "Dark or bloody urine",
+"aliases": [],
+"description": "A severe symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "jaundice",
+"type": "SevereSymptom",
+"label": "Jaundice",
+"aliases": ["Yellowing of the eyes and skin"],
+"description": "A severe symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "abnormal_bleeding",
+"type": "SevereSymptom",
+"label": "Abnormal bleeding",
+"aliases": [],
+"description": "A severe symptom of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "premature_delivery",
+"type": "Complication",
+"label": "Premature delivery",
+"aliases": [],
+"description": "A complication caused by malaria infection during pregnancy.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "low_birth_weight",
+"type": "Complication",
+"label": "Low birth weight",
+"aliases": [],
+"description": "A complication caused by malaria infection during pregnancy.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "infants",
+"type": "Population",
+"label": "Infants",
+"aliases": [],
+"description": "A high-risk population group for severe malaria infection.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "children_under_five",
+"type": "Population",
+"label": "Children under 5 years",
+"aliases": [],
+"description": "A high-risk population group for severe malaria infection.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "pregnant_women",
+"type": "Population",
+"label": "Pregnant women and girls",
+"aliases": [],
+"description": "A high-risk population group for severe malaria infection.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "travellers",
+"type": "Population",
+"label": "Travellers",
+"aliases": [],
+"description": "A high-risk population group for severe malaria infection when visiting endemic areas.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "people_with_hiv_or_aids",
+"type": "Population",
+"label": "People with HIV or AIDS",
+"aliases": [],
+"description": "A high-risk population group for severe malaria infection.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "vulnerable_populations",
+"type": "Population",
+"label": "Vulnerable populations",
+"aliases": [],
+"description": "Populations targeted for preventive chemotherapies.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "school_aged_children",
+"type": "Population",
+"label": "School-aged children",
+"aliases": [],
+"description": "A population segment receiving target interventions.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "avoiding_mosquito_bites",
+"type": "Prevention",
+"label": "Avoiding mosquito bites",
+"aliases": [],
+"description": "A baseline preventive behavior against malaria transmission.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "mosquito_nets",
+"type": "Prevention",
+"label": "Mosquito nets",
+"aliases": [],
+"description": "Use of nets when sleeping in places where malaria is present.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "mosquito_repellents",
+"type": "Prevention",
+"label": "Mosquito repellents",
+"aliases": ["DEET", "IR3535", "Icaridin"],
+"description": "Repellents used after dusk to prevent mosquito bites.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "coils_and_vaporizers",
+"type": "Prevention",
+"label": "Coils and vaporizers",
+"aliases": [],
+"description": "Tools to lower the risk of getting malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "protective_clothing",
+"type": "Prevention",
+"label": "Protective clothing",
+"aliases": [],
+"description": "Clothing worn to avoid mosquito bites.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "window_screens",
+"type": "Prevention",
+"label": "Window screens",
+"aliases": [],
+"description": "Screens used to block mosquitoes.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "vector_control",
+"type": "Prevention",
+"label": "Vector control",
+"aliases": [],
+"description": "A vital component of malaria control and elimination strategies highly effective in preventing infection.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "insecticide_treated_nets",
+"type": "Prevention",
+"label": "Insecticide-treated nets",
+"aliases": ["ITNs", "New generation nets"],
+"description": "A core vector control intervention.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "indoor_residual_spraying",
+"type": "Prevention",
+"label": "Indoor residual spraying",
+"aliases": ["IRS"],
+"description": "A core vector control intervention.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "chemoprophylaxis",
+"type": "Medicine",
+"label": "Chemoprophylaxis",
+"aliases": ["Chemoprophylaxis drugs"],
+"description": "Medicines taken before travelling to malaria endemic areas to prevent infection.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "preventive_chemotherapy",
+"type": "Treatment",
+"label": "Preventive chemotherapy",
+"aliases": [],
+"description": "The use of medicines, either alone or in combination, to prevent malaria infections and their consequences in vulnerable populations.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "perennial_malaria_chemoprevention",
+"type": "Treatment",
+"label": "Perennial malaria chemoprevention",
+"aliases": ["PMC"],
+"description": "A strategy included under preventive chemotherapy.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "seasonal_malaria_chemoprevention",
+"type": "Treatment",
+"label": "Seasonal malaria chemoprevention",
+"aliases": ["SMC"],
+"description": "A strategy included under preventive chemotherapy.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "intermittent_preventive_treatment_in_pregnancy",
+"type": "Treatment",
+"label": "Intermittent preventive treatment of malaria in pregnancy",
+"aliases": ["IPTp"],
+"description": "A strategy included under preventive chemotherapy.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "intermittent_preventive_treatment_in_school_aged_children",
+"type": "Treatment",
+"label": "Intermittent preventive treatment of malaria in school-aged children",
+"aliases": ["IPTsc"],
+"description": "A strategy included under preventive chemotherapy.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "post_discharge_malaria_chemoprevention",
+"type": "Treatment",
+"label": "Post-discharge malaria chemoprevention",
+"aliases": ["PDMC"],
+"description": "A strategy included under preventive chemotherapy.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "mass_drug_administration",
+"type": "Treatment",
+"label": "Mass drug administration",
+"aliases": ["MDA"],
+"description": "A strategy included under preventive chemotherapy.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "rtss_as01",
+"type": "Vaccine",
+"label": "RTS,S/AS01",
+"aliases": [],
+"description": "A malaria vaccine recommended by WHO since October 2021 for children in areas with moderate to high P. falciparum transmission.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "r21_matrix_m",
+"type": "Vaccine",
+"label": "R21/Matrix-M",
+"aliases": [],
+"description": "A second safe and effective malaria vaccine recommended by WHO in October 2023.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "parasite_based_diagnostic_testing",
+"type": "DiagnosticTest",
+"label": "Parasite-based diagnostic testing",
+"aliases": [],
+"description": "Testing recommended by WHO to confirm all suspected cases of malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "microscopy",
+"type": "DiagnosticTest",
+"label": "Microscopy",
+"aliases": [],
+"description": "A form of parasite-based diagnostic testing.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "rapid_diagnostic_test",
+"type": "DiagnosticTest",
+"label": "Rapid diagnostic test",
+"aliases": [
+  "Rapid Diagnostic Test",
+  "RDT",
+  "RDTs"
+],
+"description": "A form of parasite-based diagnostic testing that usually targets HRP2 and HRP3 proteins.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "artemisinin_based_combination_therapy",
+"type": "Medicine",
+"label": "Artemisinin-based combination therapy",
+"aliases": ["ACTs"],
+"description": "The most effective treatment for P. falciparum malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "chloroquine",
+"type": "Medicine",
+"label": "Chloroquine",
+"aliases": [],
+"description": "Medicine recommended for treatment of infection with P. vivax only where it is still sensitive.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "primaquine",
+"type": "Medicine",
+"label": "Primaquine",
+"aliases": [],
+"description": "Medicine added to prevent relapses of infection with P. vivax and P. ovale.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "malaria_surveillance",
+"type": "Technology",
+"label": "Malaria surveillance",
+"aliases": ["Strong malaria surveillance systems"],
+"description": "Continuous and systematic collection, analysis and interpretation of malaria-related data.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "world_health_organization",
+"type": "Organization",
+"label": "World Health Organization",
+"aliases": ["WHO"],
+"description": "The global directing and coordinating authority for health.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "global_malaria_programme",
+"type": "WHOProgram",
+"label": "Global Malaria Programme",
+"aliases": [],
+"description": "Coordinates WHO’s global efforts to control and eliminate malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "mekong_malaria_elimination_programme",
+"type": "WHOProgram",
+"label": "Mekong Malaria Elimination Programme",
+"aliases": [],
+"description": "WHO program working on antimalarial drug resistance in the Greater Mekong subregion.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "global_technical_strategy_for_malaria_2016_2030",
+"type": "Policy",
+"label": "Global technical strategy for malaria 2016–2030",
+"aliases": [],
+"description": "A technical framework updated in 2021 providing guidance for all malaria-endemic countries.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "strategy_to_curb_antimalarial_drug_resistance_in_africa",
+"type": "Policy",
+"label": "Strategy to curb antimalarial drug resistance in Africa",
+"aliases": [],
+"description": "A strategy developed by WHO in 2022 to address drug resistance.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "who_african_region",
+"type": "Region",
+"label": "WHO African Region",
+"aliases": ["Africa", "African continent"],
+"description": "The region that carries a disproportionately high share of the global malaria burden.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "greater_mekong_subregion",
+"type": "Region",
+"label": "Greater Mekong subregion",
+"aliases": [],
+"description": "Subregion where partial artemisinin resistance emerged.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "sub_saharan_africa",
+"type": "Region",
+"label": "sub-Saharan Africa",
+"aliases": [],
+"description": "A geographic region heavily impacted by malaria.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "nigeria",
+"type": "Country",
+"label": "Nigeria",
+"aliases": [],
+"description": "Country accounting for 31.9% of all malaria deaths in the African region.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "democratic_republic_of_the_congo",
+"type": "Country",
+"label": "Democratic Republic of the Congo",
+"aliases": [],
+"description": "Country accounting for 11.7% of all malaria deaths in the African region.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "niger",
+"type": "Country",
+"label": "Niger",
+"aliases": [],
+"description": "Country accounting for 6.1% of all malaria deaths in the African region.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "eritrea",
+"type": "Country",
+"label": "Eritrea",
+"aliases": [],
+"description": "Country with confirmed partial artemisinin resistance and mutated parasites prevalence >15%.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "rwanda",
+"type": "Country",
+"label": "Rwanda",
+"aliases": [],
+"description": "Country with confirmed partial artemisinin resistance.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "uganda",
+"type": "Country",
+"label": "Uganda",
+"aliases": [],
+"description": "Country with confirmed partial artemisinin resistance.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "united_republic_of_tanzania",
+"type": "Country",
+"label": "United Republic of Tanzania",
+"aliases": [],
+"description": "Country with confirmed partial artemisinin resistance.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "ethiopia",
+"type": "Country",
+"label": "Ethiopia",
+"aliases": [],
+"description": "Country with suspected partial artemisinin resistance and mutated parasites prevalence >15%.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "namibia",
+"type": "Country",
+"label": "Namibia",
+"aliases": [],
+"description": "Country with suspected partial artemisinin resistance.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "sudan",
+"type": "Country",
+"label": "Sudan",
+"aliases": [],
+"description": "Country with suspected partial artemisinin resistance.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "zambia",
+"type": "Country",
+"label": "Zambia",
+"aliases": [],
+"description": "Country with suspected partial artemisinin resistance.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "viet_nam",
+"type": "Country",
+"label": "Viet Nam",
+"aliases": [],
+"description": "Country reporting mutated parasites for the first time in 2024.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "brazil",
+"type": "Country",
+"label": "Brazil",
+"aliases": [],
+"description": "Country with mutated parasites prevalence exceeding 15%.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "djibouti",
+"type": "Country",
+"label": "Djibouti",
+"aliases": [],
+"description": "Country with mutated parasites prevalence exceeding 15%.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "nicaragua",
+"type": "Country",
+"label": "Nicaragua",
+"aliases": [],
+"description": "Country with mutated parasites prevalence exceeding 15%.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "peru",
+"type": "Country",
+"label": "Peru",
+"aliases": [],
+"description": "Country with mutated parasites prevalence exceeding 15%.",
+"properties": {},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "global_malaria_cases_2024",
+"type": "Statistic",
+"label": "Global Malaria Cases 2024",
+"aliases": [],
+"description": "An estimated 282 million malaria cases globally in 2024.",
+"properties": {
+"value": 282000000,
+"year": "2024",
+"scope": "Global"
+},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "global_malaria_deaths_2024",
+"type": "Statistic",
+"label": "Global Malaria Deaths 2024",
+"aliases": [],
+"description": "An estimated 610 000 malaria deaths globally in 2024.",
+"properties": {
+"value": 610000,
+"year": "2024",
+"scope": "Global"
+},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "african_region_cases_share_2024",
+"type": "Statistic",
+"label": "WHO African Region Cases Share 2024",
+"aliases": [],
+"description": "The WHO African Region was home to 95% of malaria cases (265 million) in 2024.",
+"properties": {
+"percentage": "95%",
+"value": 265000000,
+"year": "2024",
+"scope": "WHO African Region"
+},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "african_region_deaths_share_2024",
+"type": "Statistic",
+"label": "WHO African Region Deaths Share 2024",
+"aliases": [],
+"description": "The WHO African Region was home to 95% of malaria deaths (579 000) in 2024.",
+"properties": {
+"percentage": "95%",
+"value": 579000,
+"year": "2024",
+"scope": "WHO African Region"
+},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"id": "under_five_deaths_share_africa",
+"type": "Statistic",
+"label": "Children Under 5 Deaths Share in African Region",
+"aliases": [],
+"description": "Children under 5 accounted for about 75% to 76% of all malaria deaths in the Region.",
+"properties": {
+"percentage": "75-76%",
+"scope": "WHO African Region"
+},
+"source_documents": ["WHO_MALARIA_FACT_SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+}
+],
+"edges": [
+{
+"source": "malaria",
+"relation": "CAUSED_BY",
+"target": "plasmodium",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "plasmodium",
+"relation": "HAS_SPECIES",
+"target": "p_falciparum",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "plasmodium",
+"relation": "HAS_SPECIES",
+"target": "p_vivax",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "plasmodium",
+"relation": "HAS_SPECIES",
+"target": "p_malariae",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "plasmodium",
+"relation": "HAS_SPECIES",
+"target": "p_ovale",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "plasmodium",
+"relation": "HAS_SPECIES",
+"target": "p_knowlesi",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "TRANSMITTED_BY",
+"target": "female_anopheles_mosquitoes",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "TRANSMITTED_VIA",
+"target": "blood_transfusion",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "TRANSMITTED_VIA",
+"target": "contaminated_needles",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SYMPTOM",
+"target": "fever",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SYMPTOM",
+"target": "chills",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SYMPTOM",
+"target": "headache",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "fatigue",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "impaired_consciousness",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "multiple_convulsions",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "difficulty_breathing",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "dark_or_bloody_urine",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "jaundice",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_SEVERE_SYMPTOM",
+"target": "abnormal_bleeding",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "CAUSES",
+"target": "premature_delivery",
+"properties": {
+"context": "infection during pregnancy"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "CAUSES",
+"target": "low_birth_weight",
+"properties": {
+"context": "infection during pregnancy"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HIGH_RISK_GROUP",
+"target": "infants",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HIGH_RISK_GROUP",
+"target": "children_under_five",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HIGH_RISK_GROUP",
+"target": "pregnant_women",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HIGH_RISK_GROUP",
+"target": "travellers",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HIGH_RISK_GROUP",
+"target": "people_with_hiv_or_aids",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "PREVENTED_BY",
+"target": "avoiding_mosquito_bites",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "avoiding_mosquito_bites",
+"relation": "USES",
+"target": "mosquito_nets",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "avoiding_mosquito_bites",
+"relation": "USES",
+"target": "mosquito_repellents",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "avoiding_mosquito_bites",
+"relation": "USES",
+"target": "coils_and_vaporizers",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "avoiding_mosquito_bites",
+"relation": "USES",
+"target": "protective_clothing",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "avoiding_mosquito_bites",
+"relation": "USES",
+"target": "window_screens",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "PREVENTED_BY",
+"target": "vector_control",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "vector_control",
+"relation": "USES",
+"target": "insecticide_treated_nets",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "vector_control",
+"relation": "USES",
+"target": "indoor_residual_spraying",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "PREVENTED_BY",
+"target": "chemoprophylaxis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "chemoprophylaxis",
+"relation": "RECOMMENDED_FOR",
+"target": "travellers",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "PREVENTED_BY",
+"target": "preventive_chemotherapy",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "preventive_chemotherapy",
+"relation": "RECOMMENDED_FOR",
+"target": "vulnerable_populations",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "preventive_chemotherapy",
+"relation": "USES",
+"target": "perennial_malaria_chemoprevention",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "preventive_chemotherapy",
+"relation": "USES",
+"target": "seasonal_malaria_chemoprevention",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "preventive_chemotherapy",
+"relation": "USES",
+"target": "intermittent_preventive_treatment_in_pregnancy",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "intermittent_preventive_treatment_in_pregnancy",
+"relation": "RECOMMENDED_FOR",
+"target": "pregnant_women",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "preventive_chemotherapy",
+"relation": "USES",
+"target": "intermittent_preventive_treatment_in_school_aged_children",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "intermittent_preventive_treatment_in_school_aged_children",
+"relation": "RECOMMENDED_FOR",
+"target": "school_aged_children",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "preventive_chemotherapy",
+"relation": "USES",
+"target": "post_discharge_malaria_chemoprevention",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "preventive_chemotherapy",
+"relation": "USES",
+"target": "mass_drug_administration",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_VACCINE",
+"target": "rtss_as01",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "rtss_as01",
+"relation": "RECOMMENDED_BY",
+"target": "world_health_organization",
+"properties": {
+"date": "2021-10"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "rtss_as01",
+"relation": "PROTECTS_AGAINST",
+"target": "p_falciparum",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "HAS_VACCINE",
+"target": "r21_matrix_m",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "r21_matrix_m",
+"relation": "RECOMMENDED_BY",
+"target": "world_health_organization",
+"properties": {
+"date": "2023-10"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "DIAGNOSED_BY",
+"target": "parasite_based_diagnostic_testing",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "parasite_based_diagnostic_testing",
+"relation": "USES",
+"target": "microscopy",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "parasite_based_diagnostic_testing",
+"relation": "USES",
+"target": "rapid_diagnostic_test",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "TREATED_BY",
+"target": "artemisinin_based_combination_therapy",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "artemisinin_based_combination_therapy",
+"relation": "RECOMMENDED_FOR",
+"target": "p_falciparum",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "TREATED_BY",
+"target": "chloroquine",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "chloroquine",
+"relation": "RECOMMENDED_FOR",
+"target": "p_vivax",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "TREATED_BY",
+"target": "primaquine",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "primaquine",
+"relation": "RECOMMENDED_FOR",
+"target": "p_vivax",
+"properties": {
+"purpose": "prevent relapses"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "primaquine",
+"relation": "RECOMMENDED_FOR",
+"target": "p_ovale",
+"properties": {
+"purpose": "prevent relapses"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "female_anopheles_mosquitoes",
+"relation": "RESISTANT_TO",
+"target": "indoor_residual_spraying",
+"properties": {
+"context": "emerging resistance to insecticides"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "anopheles_stephensi",
+"relation": "PREVALENT_IN",
+"target": "who_african_region",
+"properties": {
+"context": "expanding range over the last decade in 8 countries"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "p_falciparum",
+"relation": "RESISTANT_TO",
+"target": "artemisinin_based_combination_therapy",
+"properties": {
+"status": "confirmed partial resistance in Eritrea, Rwanda, Uganda, United Republic of Tanzania; suspected in Ethiopia, Namibia, Sudan, Zambia"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "p_falciparum",
+"relation": "COMPLICATED_BY",
+"target": "rapid_diagnostic_test",
+"properties": {
+"reason": "genetic mutations preventing HRP2/HRP3 expression escape detection"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "strategy_to_curb_antimalarial_drug_resistance_in_africa",
+"relation": "IMPLEMENTED_BY",
+"target": "world_health_organization",
+"properties": {
+"year": "2022"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "strategy_to_curb_antimalarial_drug_resistance_in_africa",
+"relation": "USES",
+"target": "malaria_surveillance",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "global_malaria_programme",
+"relation": "PART_OF",
+"target": "world_health_organization",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "mekong_malaria_elimination_programme",
+"relation": "PART_OF",
+"target": "world_health_organization",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "global_malaria_programme",
+"relation": "MONITORED_BY",
+"target": "global_technical_strategy_for_malaria_2016_2030",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "PREVALENT_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "nigeria",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "democratic_republic_of_the_congo",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "niger",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "eritrea",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "rwanda",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "uganda",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "united_republic_of_tanzania",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "ethiopia",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "namibia",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "sudan",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "zambia",
+"relation": "LOCATED_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "RELATED_TO",
+"target": "global_malaria_cases_2024",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "malaria",
+"relation": "RELATED_TO",
+"target": "global_malaria_deaths_2024",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "who_african_region",
+"relation": "RELATED_TO",
+"target": "african_region_cases_share_2024",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "who_african_region",
+"relation": "RELATED_TO",
+"target": "african_region_deaths_share_2024",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+},
+{
+"source": "children_under_five",
+"relation": "RELATED_TO",
+"target": "under_five_deaths_share_africa",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/malaria)"
+}
+]
+}
+]
+}

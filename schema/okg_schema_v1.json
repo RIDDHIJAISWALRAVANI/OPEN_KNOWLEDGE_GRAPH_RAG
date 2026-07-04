@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Open Knowledge Graph for WHO Disease Reports",
+  "description": "Schema for extracting biomedical knowledge from WHO disease reports.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "metadata",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "source",
+        "organization",
+        "publication_date",
+        "language",
+        "domain",
+        "document_type",
+        "document_url",
+        "version"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "organization": {
+          "type": "string"
+        },
+        "publication_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "language": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string",
+          "enum": [
+            "Healthcare"
+          ]
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "WHO Disease Report"
+          ]
+        },
+        "document_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "version": {
+          "type": "string",
+          "enum": [
+            "1.0"
+          ]
+        }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "label",
+          "aliases",
+          "description",
+          "properties",
+          "source_documents",
+          "references"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "Disease",
+              "Symptom",
+              "SevereSymptom",
+              "Pathogen",
+              "Parasite",
+              "Virus",
+              "Bacteria",
+              "Species",
+              "Vector",
+              "Transmission",
+              "Medicine",
+              "Treatment",
+              "Vaccine",
+              "DiagnosticTest",
+              "Complication",
+              "Prevention",
+              "RiskFactor",
+              "Population",
+              "Country",
+              "Region",
+              "Organization",
+              "WHOProgram",
+              "Policy",
+              "Statistic",
+              "Technology"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": {
+            "type": "string"
+          },
+          "properties": {
+            "type": "object"
+          },
+          "source_documents": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "references": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source",
+                "url"
+              ],
+              "properties": {
+                "source": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source",
+          "relation",
+          "target",
+          "properties",
+          "references"
+        ],
+        "properties": {
+          "source": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "HAS_SYMPTOM",
+              "HAS_SEVERE_SYMPTOM",
+              "CAUSED_BY",
+              "HAS_SPECIES",
+              "TRANSMITTED_BY",
+              "TRANSMITTED_VIA",
+              "TREATED_BY",
+              "PREVENTED_BY",
+              "HAS_VACCINE",
+              "DIAGNOSED_BY",
+              "HIGH_RISK_GROUP",
+              "CAUSES",
+              "COMPLICATED_BY",
+              "PREVALENT_IN",
+              "REPORTED_IN",
+              "LOCATED_IN",
+              "USES",
+              "RECOMMENDED_BY",
+              "IMPLEMENTED_BY",
+              "PART_OF",
+              "PROTECTS_AGAINST",
+              "RESISTANT_TO",
+              "RECOMMENDED_FOR",
+              "MONITORED_BY",
+              "RELATED_TO"
+            ]
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "properties": {
+            "type": "object"
+          },
+          "references": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source",
+                "url"
+              ],
+              "properties": {
+                "source": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1775 @@
+{
+"metadata": {
+"title": "Tuberculosis Fact Sheet",
+"source": "WHO",
+"organization": "World Health Organization",
+"publication_date": "2026-03-24",
+"language": "en",
+"domain": "Healthcare",
+"document_type": "WHO Disease Report",
+"document_url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)",
+"version": "1.0"
+},
+"nodes": [
+{
+"id": "tuberculosis",
+"type": "Disease",
+"label": "Tuberculosis",
+"aliases": ["TB", "TB disease"],
+"description": "An infectious disease caused by bacteria that most often affects the lungs.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "multidrug_resistant_tb",
+"type": "Disease",
+"label": "Multidrug-resistant TB",
+"aliases": ["MDR-TB"],
+"description": "A form of TB caused by bacteria that do not respond to rifampicin and isoniazid, the two most effective first-line TB drugs.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "extensively_drug_resistant_tb",
+"type": "Disease",
+"label": "Extensively drug-resistant TB",
+"aliases": ["XDR-TB"],
+"description": "TB caused by bacteria that do not respond to the most effective drugs in MDR-TB treatment regimens.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "tb_infection",
+"type": "Disease",
+"label": "TB infection",
+"aliases": [],
+"description": "A state where people are infected with TB bacteria but don't feel sick and are not contagious.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "hiv",
+"type": "Virus",
+"label": "HIV",
+"aliases": ["Human Immunodeficiency Virus"],
+"description": "A virus that weakens the immune system and combinatorially accelerates TB.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "hiv_associated_tb",
+"type": "Disease",
+"label": "HIV-associated TB",
+"aliases": [],
+"description": "Tuberculosis infection and disease occurring in individuals living with HIV.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "tb_bacteria",
+"type": "Bacteria",
+"label": "TB bacteria",
+"aliases": [],
+"description": "Bacteria that cause tuberculosis.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "airborne_transmission",
+"type": "Transmission",
+"label": "Airborne transmission",
+"aliases": [],
+"description": "Spreading through the air when people with TB cough, sneeze or spit.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "prolonged_cough",
+"type": "Symptom",
+"label": "Prolonged cough",
+"aliases": [],
+"description": "Cough lasting for an extended period, sometimes with blood.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "chest_pain",
+"type": "Symptom",
+"label": "Chest pain",
+"aliases": [],
+"description": "Pain felt in the chest region due to TB disease.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "weakness",
+"type": "Symptom",
+"label": "Weakness",
+"aliases": [],
+"description": "General body weakness associated with TB disease.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "fatigue",
+"type": "Symptom",
+"label": "Fatigue",
+"aliases": [],
+"description": "Extreme tiredness resulting from TB disease.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "weight_loss",
+"type": "Symptom",
+"label": "Weight loss",
+"aliases": ["Unexplained weight loss"],
+"description": "Losing weight without a known cause.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "fever",
+"type": "Symptom",
+"label": "Fever",
+"aliases": [],
+"description": "Elevated body temperature.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "night_sweats",
+"type": "Symptom",
+"label": "Night sweats",
+"aliases": [],
+"description": "Excessive sweating during the night.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "antibiotics",
+"type": "Medicine",
+"label": "Antibiotics",
+"aliases": ["Special antibiotics"],
+"description": "Medicines used to treat bacterial infections like TB.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "rifampicin",
+"type": "Medicine",
+"label": "Rifampicin",
+"aliases": [],
+"description": "One of the two most effective first-line TB drugs.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "isoniazid",
+"type": "Medicine",
+"label": "Isoniazid",
+"aliases": [],
+"description": "One of the two most effective first-line TB drugs.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "pyrazinamide",
+"type": "Medicine",
+"label": "Pyrazinamide",
+"aliases": [],
+"description": "A common antibiotic used in standard TB treatment.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "ethambutol",
+"type": "Medicine",
+"label": "Ethambutol",
+"aliases": [],
+"description": "A common antibiotic used in standard TB treatment.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "levofloxacin",
+"type": "Medicine",
+"label": "Levofloxacin",
+"aliases": [],
+"description": "A drug used for TB preventive treatment in people exposed to MDR-TB.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "antiretroviral_therapy",
+"type": "Treatment",
+"label": "Antiretroviral therapy",
+"aliases": ["ART"],
+"description": "Treatment for people living with HIV.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "bga_vaccine",
+"type": "Vaccine",
+"label": "Bacille Calmette-Guérin vaccine",
+"aliases": ["BCG vaccine"],
+"description": "Vaccine given to babies or small children to prevent TB.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "rapid_diagnostic_test",
+"type": "DiagnosticTest",
+"label": "Rapid diagnostic test",
+"aliases": [
+  "Rapid Diagnostic Test",
+  "RDT",
+  "RDTs"
+],
+"description": "Initial diagnostic tests recommended by WHO for all persons with signs and symptoms of TB, including biomarker-based point-of-care tests and molecular assays.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "tuberculin_skin_test",
+"type": "DiagnosticTest",
+"label": "Tuberculin skin test",
+"aliases": ["TST"],
+"description": "A test used to identify people with TB infection.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "interferon_gamma_release_assay",
+"type": "DiagnosticTest",
+"label": "Interferon gamma release assay",
+"aliases": ["IGRA"],
+"description": "A test used to identify people with TB infection.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "antigen_based_skin_test",
+"type": "DiagnosticTest",
+"label": "Antigen-based skin test",
+"aliases": ["TBST"],
+"description": "A newer test used to identify people with TB infection.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "culture_methods",
+"type": "DiagnosticTest",
+"label": "Culture methods",
+"aliases": [],
+"description": "Methods used for bacteriological confirmation of TB and testing for drug resistance.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "tb_preventive_treatment",
+"type": "Prevention",
+"label": "TB preventive treatment",
+"aliases": ["TPT"],
+"description": "Treatment that prevents TB infection from becoming disease.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "diabetes",
+"type": "RiskFactor",
+"label": "Diabetes",
+"aliases": ["High blood sugar"],
+"description": "A condition that increases a person's risk for TB disease.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "weakened_immune_system",
+"type": "RiskFactor",
+"label": "Weakened immune system",
+"aliases": [],
+"description": "An impaired immune response, for example from HIV, increasing TB risk.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "undernutrition",
+"type": "RiskFactor",
+"label": "Undernutrition",
+"aliases": [],
+"description": "Lack of proper nutrition, which increases the risk for TB disease.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "tobacco_use",
+"type": "RiskFactor",
+"label": "Tobacco use",
+"aliases": ["Smoking"],
+"description": "The use of tobacco products, which increases the risk for TB disease.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "harmful_use_of_alcohol",
+"type": "RiskFactor",
+"label": "Harmful use of alcohol",
+"aliases": ["Alcohol use disorders"],
+"description": "Excessive consumption of alcohol, which increases the risk for TB disease.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "babies_and_children",
+"type": "Population",
+"label": "Babies and children",
+"aliases": ["Pediatric"],
+"description": "A group at higher risk of developing TB disease if infected.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "people_living_with_hiv",
+"type": "Population",
+"label": "People living with HIV",
+"aliases": [],
+"description": "Population group highly vulnerable to falling ill with and dying from TB.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "world_health_organization",
+"type": "Organization",
+"label": "World Health Organization",
+"aliases": ["WHO"],
+"description": "The international public health coordinating agency.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "united_nations",
+"type": "Organization",
+"label": "United Nations",
+"aliases": ["UN"],
+"description": "International organization host to the high-level TB meetings.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "who_end_tb_strategy",
+"type": "WHOProgram",
+"label": "WHO End TB Strategy",
+"aliases": [],
+"description": "A global strategy aimed at ending the TB epidemic, with targets such as zero catastrophic costs.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "collaborative_tb_hiv_activities",
+"type": "WHOProgram",
+"label": "Collaborative TB/HIV activities",
+"aliases": [],
+"description": "Activities first recommended by WHO in 2004 to reduce morbidity and mortality from HIV-associated TB.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "bpalm_bpal_regimen",
+"type": "Policy",
+"label": "BPaLM/BPaL regimen guidelines",
+"aliases": ["6-month all-oral regimen"],
+"description": "WHO guidelines prioritizing a short 6-month all-oral regimen as a treatment of choice for eligible MDR-TB patients.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "who_african_region",
+"type": "Region",
+"label": "WHO African Region",
+"aliases": ["African Region"],
+"description": "Region reported to have the highest burden of HIV-associated TB.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "who_south_east_asia_region",
+"type": "Region",
+"label": "WHO South-East Asia Region",
+"aliases": [],
+"description": "Region with the largest number of new TB cases in 2024.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "western_pacific_region",
+"type": "Region",
+"label": "Western Pacific Region",
+"aliases": [],
+"description": "Region accounting for 27% of new TB cases in 2024.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "india",
+"type": "Country",
+"label": "India",
+"aliases": [],
+"description": "High TB burden country accounting for 25% of the global total of new cases.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "indonesia",
+"type": "Country",
+"label": "Indonesia",
+"aliases": [],
+"description": "High TB burden country accounting for 10% of the global total of new cases.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "the_philippines",
+"type": "Country",
+"label": "The Philippines",
+"aliases": [],
+"description": "High TB burden country accounting for 6.8% of the global total of new cases.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "china",
+"type": "Country",
+"label": "China",
+"aliases": [],
+"description": "High TB burden country accounting for 6.5% of the global total of new cases.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "pakistan",
+"type": "Country",
+"label": "Pakistan",
+"aliases": [],
+"description": "High TB burden country accounting for 6.3% of the global total of new cases.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "nigeria",
+"type": "Country",
+"label": "Nigeria",
+"aliases": [],
+"description": "High TB burden country accounting for 4.8% of the global total of new cases.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "democratic_republic_of_the_congo",
+"type": "Country",
+"label": "Democratic Republic of the Congo",
+"aliases": [],
+"description": "High TB burden country accounting for 3.9% of the global total of new cases.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "bangladesh",
+"type": "Country",
+"label": "Bangladesh",
+"aliases": [],
+"description": "High TB burden country accounting for 3.6% of the global total of new cases.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "brazil",
+"type": "Country",
+"label": "Brazil",
+"aliases": [],
+"description": "One of the domestic sources contributing to LMIC TB spending.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "russian_federation",
+"type": "Country",
+"label": "Russian Federation",
+"aliases": [],
+"description": "One of the domestic sources contributing to LMIC TB spending.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "south_africa",
+"type": "Country",
+"label": "South Africa",
+"aliases": [],
+"description": "One of the domestic sources contributing to LMIC TB spending.",
+"properties": {},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "tb_deaths_2024",
+"type": "Statistic",
+"label": "TB deaths in 2024",
+"aliases": [],
+"description": "1.23 million people died from TB in 2024.",
+"properties": {
+"value": "1.23 million",
+"year": "2024"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "tb_hiv_deaths_2024",
+"type": "Statistic",
+"label": "TB deaths among people with HIV in 2024",
+"aliases": [],
+"description": "150,000 deaths among people with HIV from TB in 2024.",
+"properties": {
+"value": "150000",
+"year": "2024"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "tb_incidence_2024",
+"type": "Statistic",
+"label": "TB global incidence in 2024",
+"aliases": [],
+"description": "An estimated 10.7 million people fell ill with TB worldwide in 2024, including 5.8 million men, 3.7 million women and 1.2 million children.",
+"properties": {
+"total_cases": "10.7 million",
+"men_cases": "5.8 million",
+"women_cases": "3.7 million",
+"children_cases": "1.2 million",
+"year": "2024"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "mdr_tb_treatment_access_2024",
+"type": "Statistic",
+"label": "MDR-TB treatment access in 2024",
+"aliases": [],
+"description": "Only about 2 in 5 people with drug-resistant TB accessed treatment in 2024.",
+"properties": {
+"proportion": "2 in 5",
+"year": "2024"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "lives_saved_since_2000",
+"type": "Statistic",
+"label": "TB lives saved since 2000",
+"aliases": [],
+"description": "Global efforts to combat TB have saved an estimated 83 million lives since the year 2000.",
+"properties": {
+"value": "83 million",
+"timeframe": "since 2000"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "cases_attributable_to_undernutrition_2024",
+"type": "Statistic",
+"label": "New TB cases attributable to undernutrition in 2024",
+"aliases": [],
+"description": "An estimated 0.97 million new TB cases were attributable to undernutrition globally in 2024.",
+"properties": {
+"value": "0.97 million",
+"year": "2024"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "cases_attributable_to_diabetes_2024",
+"type": "Statistic",
+"label": "New TB cases attributable to diabetes in 2024",
+"aliases": [],
+"description": "An estimated 0.93 million new TB cases were attributable to diabetes globally in 2024.",
+"properties": {
+"value": "0.93 million",
+"year": "2024"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "cases_attributable_to_alcohol_2024",
+"type": "Statistic",
+"label": "New TB cases attributable to alcohol use disorders in 2024",
+"aliases": [],
+"description": "An estimated 0.74 million new TB cases were attributable to alcohol use disorders globally in 2024.",
+"properties": {
+"value": "0.74 million",
+"year": "2024"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "cases_attributable_to_smoking_2024",
+"type": "Statistic",
+"label": "New TB cases attributable to smoking in 2024",
+"aliases": [],
+"description": "An estimated 0.70 million new TB cases were attributable to smoking globally in 2024.",
+"properties": {
+"value": "0.70 million",
+"year": "2024"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"id": "cases_attributable_to_hiv_2024",
+"type": "Statistic",
+"label": "New TB cases attributable to HIV infection in 2024",
+"aliases": [],
+"description": "An estimated 0.57 million new TB cases were attributable to HIV infection globally in 2024.",
+"properties": {
+"value": "0.57 million",
+"year": "2024"
+},
+"source_documents": ["WHO TUBERCULOSIS FACT SHEET"],
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+}
+],
+"edges": [
+{
+"source": "tuberculosis",
+"relation": "CAUSED_BY",
+"target": "tb_bacteria",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "TRANSMITTED_VIA",
+"target": "airborne_transmission",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HAS_SYMPTOM",
+"target": "prolonged_cough",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HAS_SYMPTOM",
+"target": "chest_pain",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HAS_SYMPTOM",
+"target": "weakness",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HAS_SYMPTOM",
+"target": "fatigue",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HAS_SYMPTOM",
+"target": "weight_loss",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HAS_SYMPTOM",
+"target": "fever",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HAS_SYMPTOM",
+"target": "night_sweats",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "TREATED_BY",
+"target": "antibiotics",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "TREATED_BY",
+"target": "rifampicin",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "TREATED_BY",
+"target": "isoniazid",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "TREATED_BY",
+"target": "pyrazinamide",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "TREATED_BY",
+"target": "ethambutol",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HAS_VACCINE",
+"target": "bga_vaccine",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "DIAGNOSED_BY",
+"target": "rapid_diagnostic_test",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tb_infection",
+"relation": "DIAGNOSED_BY",
+"target": "tuberculin_skin_test",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tb_infection",
+"relation": "DIAGNOSED_BY",
+"target": "interferon_gamma_release_assay",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tb_infection",
+"relation": "DIAGNOSED_BY",
+"target": "antigen_based_skin_test",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "PREVENTED_BY",
+"target": "tb_preventive_treatment",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HIGH_RISK_GROUP",
+"target": "babies_and_children",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "HIGH_RISK_GROUP",
+"target": "people_living_with_hiv",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "RELATED_TO",
+"target": "diabetes",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "RELATED_TO",
+"target": "weakened_immune_system",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "RELATED_TO",
+"target": "undernutrition",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "RELATED_TO",
+"target": "tobacco_use",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "RELATED_TO",
+"target": "harmful_use_of_alcohol",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "multidrug_resistant_tb",
+"relation": "RESISTANT_TO",
+"target": "rifampicin",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "multidrug_resistant_tb",
+"relation": "RESISTANT_TO",
+"target": "isoniazid",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "multidrug_resistant_tb",
+"relation": "PREVENTED_BY",
+"target": "levofloxacin",
+"properties": {
+"context": "For people exposed to MDR-TB"
+},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "multidrug_resistant_tb",
+"relation": "DIAGNOSED_BY",
+"target": "culture_methods",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "multidrug_resistant_tb",
+"relation": "TREATED_BY",
+"target": "bpalm_bpal_regimen",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "hiv_associated_tb",
+"relation": "TREATED_BY",
+"target": "antiretroviral_therapy",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "rapid_diagnostic_test",
+"relation": "RECOMMENDED_BY",
+"target": "world_health_organization",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "bpalm_bpal_regimen",
+"relation": "RECOMMENDED_BY",
+"target": "world_health_organization",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "collaborative_tb_hiv_activities",
+"relation": "RECOMMENDED_BY",
+"target": "world_health_organization",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "hiv_associated_tb",
+"relation": "PREVALENT_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "PREVALENT_IN",
+"target": "who_south_east_asia_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "PREVALENT_IN",
+"target": "western_pacific_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "PREVALENT_IN",
+"target": "who_african_region",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "REPORTED_IN",
+"target": "india",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "REPORTED_IN",
+"target": "indonesia",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "REPORTED_IN",
+"target": "the_philippines",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "REPORTED_IN",
+"target": "china",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "REPORTED_IN",
+"target": "pakistan",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "REPORTED_IN",
+"target": "nigeria",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "REPORTED_IN",
+"target": "democratic_republic_of_the_congo",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tuberculosis",
+"relation": "REPORTED_IN",
+"target": "bangladesh",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tb_deaths_2024",
+"relation": "RELATED_TO",
+"target": "tuberculosis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tb_hiv_deaths_2024",
+"relation": "RELATED_TO",
+"target": "hiv_associated_tb",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "tb_incidence_2024",
+"relation": "RELATED_TO",
+"target": "tuberculosis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "mdr_tb_treatment_access_2024",
+"relation": "RELATED_TO",
+"target": "multidrug_resistant_tb",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "lives_saved_since_2000",
+"relation": "RELATED_TO",
+"target": "tuberculosis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "cases_attributable_to_undernutrition_2024",
+"relation": "RELATED_TO",
+"target": "tuberculosis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "cases_attributable_to_diabetes_2024",
+"relation": "RELATED_TO",
+"target": "tuberculosis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "cases_attributable_to_alcohol_2024",
+"relation": "RELATED_TO",
+"target": "tuberculosis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "cases_attributable_to_smoking_2024",
+"relation": "RELATED_TO",
+"target": "tuberculosis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "cases_attributable_to_hiv_2024",
+"relation": "RELATED_TO",
+"target": "tuberculosis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "who_end_tb_strategy",
+"relation": "IMPLEMENTED_BY",
+"target": "world_health_organization",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "who_end_tb_strategy",
+"relation": "PROTECTS_AGAINST",
+"target": "tuberculosis",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "bpalm_bpal_regimen",
+"relation": "RECOMMENDED_FOR",
+"target": "multidrug_resistant_tb",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+},
+{
+"source": "collaborative_tb_hiv_activities",
+"relation": "PROTECTS_AGAINST",
+"target": "hiv_associated_tb",
+"properties": {},
+"references": [
+{
+"source": "WHO",
+"url": "(https://www.who.int/news-room/fact-sheets/detail/tuberculosis)"
+}
+]
+}
+]
+}
